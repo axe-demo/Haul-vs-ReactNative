@@ -3,7 +3,7 @@ import path from 'path';
 import child_process from 'child_process';
 import readline from 'readline';
 
-import request from 'request';
+import axios from 'axios';
 
 import { dirs } from './util/constants';
 import promisify, { TimedPromise } from './util/promisify';
@@ -39,7 +39,7 @@ async function haulPackager(shouldResetCache = true, dev = true, minify = false,
     { cwd: dirs.testAppBin },
     'Haul is now bundling your React Native app, starting from:'
   );
-  packager.fetchBundle = async () => promisify(request, null, `http://localhost:8081/index.${platform}.bundle?platform=${platform}&dev=${dev}&hot=false&minify=${minify}`);
+  packager.fetchBundle = async () => (await axios.get(`http://localhost:8081/index.${platform}.bundle?platform=${platform}&dev=${dev}&hot=false&minify=${minify}`)).data;
   return packager;
 }
 
@@ -50,7 +50,7 @@ async function reactNativePackager(shouldResetCache = true, dev = true, minify =
     { cwd: dirs.testAppBin },
     'Loading dependency graph, done.'
   );
-  packager.fetchBundle = async () => promisify(request, null, `http://localhost:8081/index.${platform}.bundle?platform=${platform}&dev=${dev}&hot=false&minify=${minify}`);
+  packager.fetchBundle = async () => (await axios.get(`http://localhost:8081/index.${platform}.bundle?platform=${platform}&dev=${dev}&hot=false&minify=${minify}`)).data;
   return packager;
 }
 
