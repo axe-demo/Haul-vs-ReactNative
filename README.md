@@ -20,3 +20,13 @@ The results are available in `_results.json`. The tests can be run multiple time
 
 These show the first transform times for each packager. To see how they react to changes, change `App.js` file. Note that for React Native packager to trigger a re-transform, you may need to fetch the bundle again using `curl http://localhost:8081/index.ios.bundle`
 
+
+
+## Benchmark Results
+
+| Case | Packager | Average Time (s) |
+| --- | --- | --- |
+| Adding One Component at a time | Haul | 2.611 |
+| Adding One Component at a time | ReactNative | 1.680 |
+| Adding Component Trees at a time | Haul | 2.557 |
+| Adding Component Trees at a time | ReactNative | 1.671 |
