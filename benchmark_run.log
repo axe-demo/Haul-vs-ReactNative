@@ -2,237 +2,32 @@
 > haul-vs-rn@0.0.0 test
 > babel-node src/index.js
 
-2026-06-18T13:17:53.987Z hvrn:testRunner Running on Haul for << Adding One Component at a time >>
-2026-06-18T13:17:53.990Z hvrn:lifecycle Removing Directory /app/tmp
-2026-06-18T13:18:00.190Z hvrn:lifecycle Creating Directory /app/tmp
-2026-06-18T13:18:00.191Z hvrn:lifecycle Bootstrapping React Native in /app/tmp/react_native_app
-2026-06-18T13:18:22.740Z hvrn:profiler Adding High Resolution timer to React Native
-2026-06-18T13:18:22.743Z hvrn:profiler Adding High Resolution timer to Haul
-2026-06-18T13:18:22.747Z hvrn:packager Starting packager  node_modules/haul-cli/bin/cli [ 'start', '--platform=ios', '--dev=true', '--minify=false' ]
-2026-06-18T13:18:24.303Z hvrn:RN
-2026-06-18T13:18:24.303Z hvrn:RN  INFO  Ready at http://localhost:8081
-2026-06-18T13:18:24.303Z hvrn:RN
-2026-06-18T13:18:24.303Z hvrn:RN Haul is now bundling your React Native app, starting from:
-2026-06-18T13:18:24.304Z hvrn:packager Packager ready node_modules/haul-cli/bin/cli
-2026-06-18T13:18:24.304Z hvrn:RN
-2026-06-18T13:18:24.304Z hvrn:RN /app/tmp/react_native_app/index.ios.js
-2026-06-18T13:18:24.304Z hvrn:RN
-2026-06-18T13:18:24.304Z hvrn:RN A fresh build may take longer than usual
-2026-06-18T13:18:24.304Z hvrn:RN
-2026-06-18T13:18:33.282Z hvrn:RN <<< ===== Bundle Time ===== 8.898471369
-2026-06-18T13:18:33.284Z hvrn:RN  DONE  Built successfully!
-2026-06-18T13:18:33.284Z hvrn:RN
-2026-06-18T13:18:33.284Z hvrn:RN You can now run the app on your ios device
-2026-06-18T13:18:33.284Z hvrn:RN
-2026-06-18T13:18:33.350Z hvrn:RN GET /index.ios.bundle 200 1641110 - 8993.486 ms
-2026-06-18T13:18:38.355Z hvrn:test:case Added Component  1
-2026-06-18T13:18:38.426Z hvrn:RN
-2026-06-18T13:18:38.427Z hvrn:RN  INFO  Building...
-2026-06-18T13:18:40.512Z hvrn:RN <<< ===== Bundle Time ===== 1.779738489
-2026-06-18T13:18:40.513Z hvrn:RN
-2026-06-18T13:18:40.513Z hvrn:RN  DONE  Built successfully!
-2026-06-18T13:18:40.513Z hvrn:RN
-2026-06-18T13:18:40.513Z hvrn:RN You can now run the app on your ios device
-2026-06-18T13:18:40.513Z hvrn:RN
-2026-06-18T13:18:40.523Z hvrn:RN  INFO  Building...
-2026-06-18T13:18:40.868Z hvrn:RN <<< ===== Bundle Time ===== 0.040829707
-2026-06-18T13:18:40.869Z hvrn:RN
-2026-06-18T13:18:40.869Z hvrn:RN  DONE  Built successfully!
-2026-06-18T13:18:40.869Z hvrn:RN
-2026-06-18T13:18:40.869Z hvrn:RN You can now run the app on your ios device
-2026-06-18T13:18:40.869Z hvrn:RN
-2026-06-18T13:18:43.383Z hvrn:RN GET /index.ios.bundle 200 1643903 - 3.016 ms
-2026-06-18T13:18:48.386Z hvrn:test:case Added Component  2
-2026-06-18T13:18:48.527Z hvrn:RN
-2026-06-18T13:18:48.527Z hvrn:RN  INFO  Building...
-2026-06-18T13:18:50.670Z hvrn:RN <<< ===== Bundle Time ===== 1.838699603
-2026-06-18T13:18:50.671Z hvrn:RN
-2026-06-18T13:18:50.671Z hvrn:RN  DONE  Built successfully!
-2026-06-18T13:18:50.671Z hvrn:RN
-2026-06-18T13:18:50.671Z hvrn:RN You can now run the app on your ios device
-2026-06-18T13:18:50.671Z hvrn:RN
-2026-06-18T13:18:53.408Z hvrn:RN GET /index.ios.bundle 200 1646696 - 2.728 ms
-2026-06-18T13:18:58.411Z hvrn:test:case Added Component  3
-2026-06-18T13:18:58.683Z hvrn:RN
-2026-06-18T13:18:58.683Z hvrn:RN  INFO  Building...
-2026-06-18T13:19:00.574Z hvrn:RN <<< ===== Bundle Time ===== 1.5869339
-2026-06-18T13:19:00.575Z hvrn:RN
-2026-06-18T13:19:00.575Z hvrn:RN  DONE  Built successfully!
-2026-06-18T13:19:00.575Z hvrn:RN
-2026-06-18T13:19:00.575Z hvrn:RN You can now run the app on your ios device
-2026-06-18T13:19:00.575Z hvrn:RN
-2026-06-18T13:19:03.432Z hvrn:RN GET /index.ios.bundle 200 1649489 - 2.657 ms
-2026-06-18T13:19:08.435Z hvrn:test:case Added Component  4
-2026-06-18T13:19:08.589Z hvrn:RN
-2026-06-18T13:19:08.589Z hvrn:RN  INFO  Building...
-2026-06-18T13:19:10.570Z hvrn:RN <<< ===== Bundle Time ===== 1.675420666
-2026-06-18T13:19:10.570Z hvrn:RN
-2026-06-18T13:19:10.570Z hvrn:RN  DONE  Built successfully!
-2026-06-18T13:19:10.570Z hvrn:RN
-2026-06-18T13:19:10.570Z hvrn:RN You can now run the app on your ios device
-2026-06-18T13:19:10.570Z hvrn:RN
-2026-06-18T13:19:13.462Z hvrn:testRunner Running on React Native for << Adding One Component at a time >>
-2026-06-18T13:19:13.462Z hvrn:lifecycle Removing Directory /app/tmp
-2026-06-18T13:19:13.463Z hvrn:RN GET /index.ios.bundle 200 1652282 - 2.716 ms
-2026-06-18T13:19:14.602Z hvrn:lifecycle Creating Directory /app/tmp
-2026-06-18T13:19:14.603Z hvrn:lifecycle Bootstrapping React Native in /app/tmp/react_native_app
-2026-06-18T13:19:33.731Z hvrn:profiler Adding High Resolution timer to React Native
-2026-06-18T13:19:33.732Z hvrn:profiler Adding High Resolution timer to Haul
-2026-06-18T13:19:33.736Z hvrn:packager Starting packager  node_modules/react-native/local-cli/cli.js [ 'start', '--reset-cache' ]
-2026-06-18T13:19:35.650Z hvrn:RN Scanning 754 folders for symlinks in /app/tmp/react_native_app/node_modules (6ms)
-2026-06-18T13:19:35.712Z hvrn:RN  ┌────────────────────────────────────────────────────────────────────────────┐
-2026-06-18T13:19:35.713Z hvrn:RN  │  Running packager on port 8081.                                            │
-2026-06-18T13:19:35.713Z hvrn:RN  │                                                                            │
-2026-06-18T13:19:35.713Z hvrn:RN  │  Keep this packager running while developing on any JS projects. Feel      │
-2026-06-18T13:19:35.713Z hvrn:RN  │  free to close this tab and run your own packager instance if you          │
-2026-06-18T13:19:35.713Z hvrn:RN  │  prefer.                                                                   │
-2026-06-18T13:19:35.713Z hvrn:RN  │                                                                            │
-2026-06-18T13:19:35.713Z hvrn:RN  │  https://github.com/facebook/react-native                                  │
-2026-06-18T13:19:35.713Z hvrn:RN  │                                                                            │
-2026-06-18T13:19:35.713Z hvrn:RN  └────────────────────────────────────────────────────────────────────────────┘
-2026-06-18T13:19:35.713Z hvrn:RN Looking for JS files in
-2026-06-18T13:19:35.713Z hvrn:RN    /app/tmp/react_native_app
-2026-06-18T13:19:35.713Z hvrn:RN
-2026-06-18T13:19:35.737Z hvrn:RN
-2026-06-18T13:19:35.737Z hvrn:RN React packager ready.
-2026-06-18T13:19:35.737Z hvrn:RN
-2026-06-18T13:19:40.223Z hvrn:RN Loading dependency graph, done.
-2026-06-18T13:19:40.223Z hvrn:packager Packager ready node_modules/react-native/local-cli/cli.js
-2026-06-18T13:19:40.426Z hvrn:RN warning: the transform cache was reset.
-2026-06-18T13:19:40.625Z hvrn:RN transform[stderr]: (node:118176) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
-2026-06-18T13:19:40.625Z hvrn:RN transform[stderr]: (Use `node --trace-deprecation ...` to show where the warning was created)
-2026-06-18T13:19:40.796Z hvrn:RN transform[stderr]: (node:118177) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
-2026-06-18T13:19:40.796Z hvrn:RN transform[stderr]: (Use `node --trace-deprecation ...` to show where the warning was created)
-2026-06-18T13:19:40.982Z hvrn:RN transform[stderr]: (node:118178) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
-2026-06-18T13:19:40.983Z hvrn:RN transform[stderr]: (Use `node --trace-deprecation ...` to show where the warning was created)
-2026-06-18T13:19:46.911Z hvrn:RN Bundling `index.ios.js`  [development, non-minified, hmr disabled]  100.0% (303/303), done.
-2026-06-18T13:19:46.912Z hvrn:RN <<< ===== Bundle Time ===== 6.651427083
-2026-06-18T13:19:52.037Z hvrn:test:case Added Component  1
-2026-06-18T13:19:57.437Z hvrn:RN Bundling `index.ios.js`  [development, non-minified, hmr disabled]  100.0% (304/304), done.
-2026-06-18T13:19:57.437Z hvrn:RN <<< ===== Bundle Time ===== 0.390179713
-2026-06-18T13:20:02.578Z hvrn:test:case Added Component  2
-2026-06-18T13:20:07.929Z hvrn:RN Bundling `index.ios.js`  [development, non-minified, hmr disabled]  100.0% (305/305), done.
-2026-06-18T13:20:07.929Z hvrn:RN <<< ===== Bundle Time ===== 0.344276222
-2026-06-18T13:20:13.040Z hvrn:test:case Added Component  3
-2026-06-18T13:20:18.342Z hvrn:RN Bundling `index.ios.js`  [development, non-minified, hmr disabled]  100.0% (306/306), done.
-2026-06-18T13:20:18.342Z hvrn:RN <<< ===== Bundle Time ===== 0.290938979
-2026-06-18T13:20:23.510Z hvrn:test:case Added Component  4
-2026-06-18T13:20:28.824Z hvrn:RN Bundling `index.ios.js`  [development, non-minified, hmr disabled]  100.0% (307/307), done.
-2026-06-18T13:20:28.824Z hvrn:RN <<< ===== Bundle Time ===== 0.304953482
-2026-06-18T13:20:28.961Z hvrn:testRunner Running on Haul for << Adding Component Trees at a time >>
-2026-06-18T13:20:28.961Z hvrn:lifecycle Removing Directory /app/tmp
-2026-06-18T13:20:30.158Z hvrn:lifecycle Creating Directory /app/tmp
-2026-06-18T13:20:30.159Z hvrn:lifecycle Bootstrapping React Native in /app/tmp/react_native_app
-2026-06-18T13:20:49.126Z hvrn:profiler Adding High Resolution timer to React Native
-2026-06-18T13:20:49.127Z hvrn:profiler Adding High Resolution timer to Haul
-2026-06-18T13:20:49.130Z hvrn:packager Starting packager  node_modules/haul-cli/bin/cli [ 'start', '--platform=ios', '--dev=true', '--minify=false' ]
-2026-06-18T13:20:50.601Z hvrn:RN
-2026-06-18T13:20:50.602Z hvrn:RN  INFO  Ready at http://localhost:8081
-2026-06-18T13:20:50.602Z hvrn:RN
-2026-06-18T13:20:50.602Z hvrn:RN Haul is now bundling your React Native app, starting from:
-2026-06-18T13:20:50.602Z hvrn:packager Packager ready node_modules/haul-cli/bin/cli
-2026-06-18T13:20:50.602Z hvrn:RN
-2026-06-18T13:20:50.602Z hvrn:RN /app/tmp/react_native_app/index.ios.js
-2026-06-18T13:20:50.602Z hvrn:RN
-2026-06-18T13:20:50.602Z hvrn:RN A fresh build may take longer than usual
-2026-06-18T13:20:50.602Z hvrn:RN
-2026-06-18T13:20:57.178Z hvrn:RN <<< ===== Bundle Time ===== 6.501609917
-2026-06-18T13:20:57.180Z hvrn:RN  DONE  Built successfully!
-2026-06-18T13:20:57.180Z hvrn:RN
-2026-06-18T13:20:57.180Z hvrn:RN You can now run the app on your ios device
-2026-06-18T13:20:57.180Z hvrn:RN
-2026-06-18T13:20:57.244Z hvrn:RN GET /index.ios.bundle 200 1641110 - 6616.852 ms
-2026-06-18T13:21:02.254Z hvrn:test:case Added ComponentTree  1
-2026-06-18T13:21:02.326Z hvrn:RN
-2026-06-18T13:21:02.326Z hvrn:RN  INFO  Building...
-2026-06-18T13:21:04.293Z hvrn:RN <<< ===== Bundle Time ===== 1.661191151
-2026-06-18T13:21:04.294Z hvrn:RN
-2026-06-18T13:21:04.295Z hvrn:RN  DONE  Built successfully!
-2026-06-18T13:21:04.295Z hvrn:RN
-2026-06-18T13:21:04.295Z hvrn:RN You can now run the app on your ios device
-2026-06-18T13:21:04.295Z hvrn:RN
-2026-06-18T13:21:04.302Z hvrn:RN  INFO  Building...
-2026-06-18T13:21:04.650Z hvrn:RN <<< ===== Bundle Time ===== 0.039848268
-2026-06-18T13:21:04.651Z hvrn:RN
-2026-06-18T13:21:04.651Z hvrn:RN  DONE  Built successfully!
-2026-06-18T13:21:04.651Z hvrn:RN
-2026-06-18T13:21:04.651Z hvrn:RN You can now run the app on your ios device
-2026-06-18T13:21:04.651Z hvrn:RN
-2026-06-18T13:21:07.281Z hvrn:RN GET /index.ios.bundle 200 1652429 - 6.077 ms
-2026-06-18T13:21:12.287Z hvrn:test:case Added ComponentTree  2
-2026-06-18T13:21:12.306Z hvrn:RN
-2026-06-18T13:21:12.307Z hvrn:RN  INFO  Building...
-2026-06-18T13:21:14.180Z hvrn:RN <<< ===== Bundle Time ===== 1.569917944
-2026-06-18T13:21:14.181Z hvrn:RN
-2026-06-18T13:21:14.181Z hvrn:RN  DONE  Built successfully!
-2026-06-18T13:21:14.181Z hvrn:RN
-2026-06-18T13:21:14.181Z hvrn:RN You can now run the app on your ios device
-2026-06-18T13:21:14.181Z hvrn:RN
-2026-06-18T13:21:17.307Z hvrn:RN GET /index.ios.bundle 200 1663750 - 2.864 ms
-2026-06-18T13:21:22.315Z hvrn:test:case Added ComponentTree  3
-2026-06-18T13:21:23.194Z hvrn:RN
-2026-06-18T13:21:23.194Z hvrn:RN  INFO  Building...
-2026-06-18T13:21:25.180Z hvrn:RN <<< ===== Bundle Time ===== 1.681867037
-2026-06-18T13:21:25.181Z hvrn:RN
-2026-06-18T13:21:25.181Z hvrn:RN  DONE  Built successfully!
-2026-06-18T13:21:25.181Z hvrn:RN
-2026-06-18T13:21:25.181Z hvrn:RN You can now run the app on your ios device
-2026-06-18T13:21:25.181Z hvrn:RN
-2026-06-18T13:21:27.338Z hvrn:RN GET /index.ios.bundle 200 1675068 - 2.825 ms
-2026-06-18T13:21:32.346Z hvrn:test:case Added ComponentTree  4
-2026-06-18T13:21:33.194Z hvrn:RN
-2026-06-18T13:21:33.194Z hvrn:RN  INFO  Building...
-2026-06-18T13:21:34.995Z hvrn:RN <<< ===== Bundle Time ===== 1.497611647
-2026-06-18T13:21:34.996Z hvrn:RN
-2026-06-18T13:21:34.996Z hvrn:RN  DONE  Built successfully!
-2026-06-18T13:21:34.996Z hvrn:RN
-2026-06-18T13:21:34.996Z hvrn:RN You can now run the app on your ios device
-2026-06-18T13:21:34.996Z hvrn:RN
-2026-06-18T13:21:37.372Z hvrn:testRunner Running on React Native for << Adding Component Trees at a time >>
-2026-06-18T13:21:37.372Z hvrn:lifecycle Removing Directory /app/tmp
-2026-06-18T13:21:37.373Z hvrn:RN GET /index.ios.bundle 200 1686387 - 4.586 ms
-2026-06-18T13:21:38.532Z hvrn:lifecycle Creating Directory /app/tmp
-2026-06-18T13:21:38.533Z hvrn:lifecycle Bootstrapping React Native in /app/tmp/react_native_app
-2026-06-18T13:21:58.429Z hvrn:profiler Adding High Resolution timer to React Native
-2026-06-18T13:21:58.433Z hvrn:profiler Adding High Resolution timer to Haul
-2026-06-18T13:21:58.437Z hvrn:packager Starting packager  node_modules/react-native/local-cli/cli.js [ 'start', '--reset-cache' ]
-2026-06-18T13:22:00.997Z hvrn:RN Scanning 754 folders for symlinks in /app/tmp/react_native_app/node_modules (5ms)
-2026-06-18T13:22:01.060Z hvrn:RN  ┌────────────────────────────────────────────────────────────────────────────┐
-2026-06-18T13:22:01.060Z hvrn:RN  │  Running packager on port 8081.                                            │
-2026-06-18T13:22:01.060Z hvrn:RN  │                                                                            │
-2026-06-18T13:22:01.060Z hvrn:RN  │  Keep this packager running while developing on any JS projects. Feel      │
-2026-06-18T13:22:01.060Z hvrn:RN  │  free to close this tab and run your own packager instance if you          │
-2026-06-18T13:22:01.060Z hvrn:RN  │  prefer.                                                                   │
-2026-06-18T13:22:01.060Z hvrn:RN  │                                                                            │
-2026-06-18T13:22:01.060Z hvrn:RN  │  https://github.com/facebook/react-native                                  │
-2026-06-18T13:22:01.060Z hvrn:RN  │                                                                            │
-2026-06-18T13:22:01.060Z hvrn:RN  └────────────────────────────────────────────────────────────────────────────┘
-2026-06-18T13:22:01.060Z hvrn:RN Looking for JS files in
-2026-06-18T13:22:01.060Z hvrn:RN    /app/tmp/react_native_app
-2026-06-18T13:22:01.060Z hvrn:RN
-2026-06-18T13:22:01.085Z hvrn:RN
-2026-06-18T13:22:01.085Z hvrn:RN React packager ready.
-2026-06-18T13:22:01.085Z hvrn:RN
-2026-06-18T13:22:05.502Z hvrn:RN Loading dependency graph, done.
-2026-06-18T13:22:05.502Z hvrn:packager Packager ready node_modules/react-native/local-cli/cli.js
-2026-06-18T13:22:05.605Z hvrn:RN warning: the transform cache was reset.
-2026-06-18T13:22:05.795Z hvrn:RN transform[stderr]: (node:118359) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
-2026-06-18T13:22:05.796Z hvrn:RN transform[stderr]: (Use `node --trace-deprecation ...` to show where the warning was created)
-2026-06-18T13:22:05.965Z hvrn:RN transform[stderr]: (node:118360) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
-2026-06-18T13:22:05.965Z hvrn:RN transform[stderr]: (Use `node --trace-deprecation ...` to show where the warning was created)
-2026-06-18T13:22:06.066Z hvrn:RN transform[stderr]: (node:118361) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
-2026-06-18T13:22:06.066Z hvrn:RN transform[stderr]: (Use `node --trace-deprecation ...` to show where the warning was created)
-2026-06-18T13:22:12.111Z hvrn:RN Bundling `index.ios.js`  [development, non-minified, hmr disabled]  100.0% (303/303), done.
-2026-06-18T13:22:12.112Z hvrn:RN <<< ===== Bundle Time ===== 6.574792503
-2026-06-18T13:22:17.274Z hvrn:test:case Added ComponentTree  1
-2026-06-18T13:22:22.695Z hvrn:RN Bundling `index.ios.js`  [development, non-minified, hmr disabled]  100.0% (307/307), done.
-2026-06-18T13:22:22.695Z hvrn:RN <<< ===== Bundle Time ===== 0.41192063
-2026-06-18T13:22:27.855Z hvrn:test:case Added ComponentTree  2
-2026-06-18T13:22:33.230Z hvrn:RN Bundling `index.ios.js`  [development, non-minified, hmr disabled]  100.0% (311/311), done.
-2026-06-18T13:22:33.230Z hvrn:RN <<< ===== Bundle Time ===== 0.370679267
-2026-06-18T13:22:38.353Z hvrn:test:case Added ComponentTree  3
-2026-06-18T13:22:43.766Z hvrn:RN Bundling `index.ios.js`  [development, non-minified, hmr disabled]  100.0% (315/315), done.
-2026-06-18T13:22:43.766Z hvrn:RN <<< ===== Bundle Time ===== 0.404028531
-2026-06-18T13:22:48.875Z hvrn:test:case Added ComponentTree  4
-2026-06-18T13:22:54.212Z hvrn:RN Bundling `index.ios.js`  [development, non-minified, hmr disabled]  100.0% (319/319), done.
-2026-06-18T13:22:54.212Z hvrn:RN <<< ===== Bundle Time ===== 0.327906405
+Error Error: Command failed: yarn install
+warning package.json: "dependencies" has dependency "haul-cli" with range "^0.6.0" that collides with a dependency in "devDependencies" of the same name with version "^0.1.4"
+warning testApp@0.0.1: "dependencies" has dependency "haul-cli" with range "^0.6.0" that collides with a dependency in "devDependencies" of the same name with version "^0.1.4"
+warning haul-cli@0.6.0: WARNING: This project has been renamed to haul. Install using haul instead
+warning react-native@0.47.0: Issues and pull requests filed against this version are not supported. See the React Native release support policy to learn more: https://github.com/reactwg/react-native-releases#releases-support-policy
+warning react-native > glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+warning react-native > xcode > uuid@3.0.1: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
+warning react-native > jest-haste-map > sane@2.5.2: some dependency vulnerabilities fixed, support for node < 10 dropped, and newer ECMAScript syntax/features added
+warning react-native > metro-bundler > jest-haste-map > sane@1.6.0: some dependency vulnerabilities fixed, support for node < 10 dropped, and newer ECMAScript syntax/features added
+warning react-native > babel-register > core-js@2.6.12: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+warning react-native > jest-haste-map > sane > fsevents@1.2.13: Upgrade to fsevents v2 to mitigate potential security issues
+warning react-native > jest-haste-map > sane > micromatch > snapdragon > source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+warning react-native > jest-haste-map > sane > micromatch > snapdragon > source-map-resolve > source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
+warning react-native > jest-haste-map > sane > micromatch > snapdragon > source-map-resolve > urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+warning react-native > jest-haste-map > sane > micromatch > snapdragon > source-map-resolve > resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+error https://registry.yarnpkg.com/xmldom/-/xmldom-0.1.27.tgz: Extracting tar content of undefined failed, the file appears to be corrupt: "ENOENT: no such file or directory, open '/home/jules/.cache/yarn/v6/npm-xmldom-0.1.27-d501f97b3bdb403af8ef9ecc20573187aadac0e9/node_modules/xmldom/component.json'"
+
+    at genericNodeError (node:internal/errors:983:15)
+    at wrappedFn (node:internal/errors:537:14)
+    at ChildProcess.exithandler (node:child_process:417:12)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess.emit (node:domain:489:12)
+    at maybeClose (node:internal/child_process:1101:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:304:5) {
+  code: 1,
+  killed: false,
+  signal: null,
+  cmd: 'yarn install'
+}
