@@ -8,6 +8,18 @@ To run all the test cases under `src/cases`, clone this repo, run `npm install` 
 
 The results are available in `_results.json`. The tests can be run multiple times to aggregate the results in the json file. 
 
+## Benchmark Results
+
+The following table summarizes the performance characteristics (in seconds) of the stock React Native packager (Metro) vs Webpack-based Haul, based on recent automated test runs.
+
+| Metric | Packager | Cold Start | Incremental (Avg) |
+| :--- | :--- | :--- | :--- |
+| **Adding One Component** | **Metro** | 10.15s | ~0.39s |
+| | **Haul** | 10.99s | ~1.72s |
+| **Adding Component Trees**| **Metro** | 6.76s | ~0.41s |
+| | **Haul** | 7.43s | ~1.35s |
+
+*Metro consistently outperforms Haul in both initial bundling and incremental updates.*
 
 ## Manual Profiling
 

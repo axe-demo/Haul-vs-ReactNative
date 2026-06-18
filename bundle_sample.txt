@@ -1,0 +1,20 @@
+(function(global) {
+
+global.__DEV__ = true;
+
+global.__BUNDLE_START_TIME__ = global.nativePerformanceNow ? global.nativePerformanceNow() : Date.now();
+})(typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : this);
+(function(global) {
+
+'use strict';
+
+global.require = _require;
+global.__d = define;
+
+var modules = Object.create(null);
+if (__DEV__) {
+  var verboseNamesToModuleIds = Object.create(null);
+}
+
+function define(factory, moduleId, dependencyMap) {
+  if (moduleId in modules) {
