@@ -2287,11 +2287,12 @@ escodegen@^1.6.1:
     source-map "~0.2.0"
 
 eslint-plugin-prettier@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.npmjs.org/eslint-plugin-prettier/-/eslint-plugin-prettier-2.0.1.tgz"
-  integrity sha512-xW7ooqEUS4xyS0Wq9Gdqn1DFiHBkfH8hwYXaGNYAXAunhmDfOALi5bQ+JA3eR1v9MfSXXaIiTLxeFU3zqS8+MA==
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-2.7.0.tgz#b4312dcf2c1d965379d7f9d5b5f8aaadc6a45904"
+  integrity sha512-CStQYJgALoQBw3FsBzH0VOVDRnJ/ZimUlpLm226U8qgqYJfPOY/CPK6wyRInMxh73HSKg5wyRwdS4BVYYHwokA==
   dependencies:
-    requireindex "~1.1.0"
+    fast-diff "^1.1.1"
+    jest-docblock "^21.0.0"
 
 esprima@^2.7.1:
   version "2.7.3"
@@ -2483,6 +2484,11 @@ fancy-log@^1.1.0:
   dependencies:
     chalk "^1.1.1"
     time-stamp "^1.0.0"
+
+fast-diff@^1.1.1:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/fast-diff/-/fast-diff-1.3.0.tgz#ece407fa550a64d638536cd727e129c61616e0f0"
+  integrity sha512-VxPP4NqbUjj6MaAOafWeUn2cXWLcCtljklUtZf0Ind4XQ+QPtmA0b18zZy0jIQx+ExRVCR/ZQpBmik5lXshNsw==
 
 fast-levenshtein@~2.0.4:
   version "2.0.6"
@@ -3569,6 +3575,11 @@ jest-docblock@^20.1.0-alpha.3:
   version "20.1.0-echo.1"
   resolved "https://registry.npmjs.org/jest-docblock/-/jest-docblock-20.1.0-echo.1.tgz"
   integrity sha512-zJPqHgxSlu5AYjyFLoXzwSqTZGeRAbtW9lTrWfjfDWyQCQjPlt9j9s7t3UBoDwUocM7qVNdlrcXPPtBkQR1dJw==
+
+jest-docblock@^21.0.0:
+  version "21.2.0"
+  resolved "https://registry.yarnpkg.com/jest-docblock/-/jest-docblock-21.2.0.tgz#51529c3b30d5fd159da60c27ceedc195faf8d414"
+  integrity sha512-5IZ7sY9dBAYSV+YjQ0Ovb540Ku7AO9Z5o2Cg789xj167iQuZ2cG+z0f3Uct6WeYLbU6aQiM2pCs7sZ+4dotydw==
 
 jest-environment-jsdom@^19.0.2:
   version "19.0.2"
@@ -5424,11 +5435,6 @@ require-main-filename@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npmjs.org/require-main-filename/-/require-main-filename-1.0.1.tgz"
   integrity sha512-IqSUtOVP4ksd1C/ej5zeEh/BIP2ajqpn8c5x+q99gvcIG/Qf0cud5raVnE/Dwd0ua9TXYDoDc0RE5hBSdz22Ug==
-
-requireindex@~1.1.0:
-  version "1.1.0"
-  resolved "https://registry.npmjs.org/requireindex/-/requireindex-1.1.0.tgz"
-  integrity sha512-LBnkqsDE7BZKvqylbmn7lTIVdpx4K/QCduRATpO5R+wtPmky/a8pN1bO2D6wXppn1497AJF9mNjqAXr6bdl9jg==
 
 resolve-url@^0.2.1:
   version "0.2.1"
