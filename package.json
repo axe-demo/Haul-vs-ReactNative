@@ -18,6 +18,6 @@
     "fs-extra": "^11.3.6"
   },
   "devDependencies": {
-    "@babel/cli": "^8.0.1"
+    "@babel/cli": "^8.0.4"
   }
 }
