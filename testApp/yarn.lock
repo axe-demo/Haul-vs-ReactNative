@@ -5903,11 +5903,13 @@ setprototypeof@1.2.0, setprototypeof@~1.2.0:
   integrity sha512-E5LDX7Wrp85Kil5bhZv46j8jOeboKq5JMmYM3gVGdGH8xFpPWXUMsNrlODCrkoxMEeNi/XZIwuRvY4XNwYMJpw==
 
 sha.js@^2.3.6:
-  version "2.4.8"
-  resolved "https://registry.npmjs.org/sha.js/-/sha.js-2.4.8.tgz"
-  integrity sha512-O88cSHqkNUtD50hl7MXqkAlPbw1DcRBgiLRjHk3DtpGF0I6jlNN6yxCg1fIQX/Rl2PyrNK6LNuHG3FfBi0t3hQ==
+  version "2.4.12"
+  resolved "https://registry.yarnpkg.com/sha.js/-/sha.js-2.4.12.tgz#eb8b568bf383dfd1867a32c3f2b74eb52bdbf23f"
+  integrity sha512-8LzC5+bvI45BjpfXU8V5fdU2mfeKiQe1D1gIMn7XUlF3OTUrpdJpPPH4EMAnF0DsHHdSZqCdSss5qCmJKuiO3w==
   dependencies:
-    inherits "^2.0.1"
+    inherits "^2.0.4"
+    safe-buffer "^5.2.1"
+    to-buffer "^1.2.0"
 
 shebang-command@^2.0.0:
   version "2.0.0"
@@ -6328,7 +6330,7 @@ to-arraybuffer@^1.0.0:
   resolved "https://registry.npmjs.org/to-arraybuffer/-/to-arraybuffer-1.0.1.tgz"
   integrity sha512-okFlQcoGTi4LQBG/PgSYblw9VOyptsz2KJZqc6qtgGdes8VktzUQkj4BI2blit072iS8VODNcMA+tvnS9dnuMA==
 
-to-buffer@^1.2.2:
+to-buffer@^1.2.0, to-buffer@^1.2.2:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/to-buffer/-/to-buffer-1.2.2.tgz#ffe59ef7522ada0a2d1cb5dfe03bb8abc3cdc133"
   integrity sha512-db0E3UJjcFhpDhAF4tLo03oli3pwl3dbnzXOUIlRKrp+ldk/VUxzpWYZENsw2SZiuBjHAk7DfB0VU7NKdpb6sw==
