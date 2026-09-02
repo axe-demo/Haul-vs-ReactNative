@@ -9,12 +9,12 @@
   "dependencies": {
     "haul-cli": "^0.6.0",
     "react": "19.2.8",
-    "react-native": "0.87.0"
+    "react-native": "0.87.1"
   },
   "devDependencies": {
-    "babel-jest": "30.4.1",
+    "babel-jest": "30.5.0",
     "babel-preset-react-native": "4.0.1",
-    "jest": "30.4.2",
+    "jest": "30.5.0",
     "react-test-renderer": "~19.2.8"
   },
   "jest": {
