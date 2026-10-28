@@ -9,7 +9,7 @@
   "author": "Parashuram <code@nparashuram.com>",
   "license": "ISC",
   "dependencies": {
-    "@babel/core": "^8.0.7",
+    "@babel/core": "^8.0.9",
     "@babel/node": "^8.0.6",
     "@babel/preset-env": "^8.0.7",
     "@babel/register": "^8.0.1",
