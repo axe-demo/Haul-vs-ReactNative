@@ -9,7 +9,7 @@
   "dependencies": {
     "haul-cli": "^0.6.0",
     "react": "19.3.1",
-    "react-native": "0.88.0"
+    "react-native": "0.88.1"
   },
   "devDependencies": {
     "babel-jest": "30.5.2",
