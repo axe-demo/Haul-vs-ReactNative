@@ -9,11 +9,11 @@
   "author": "Parashuram <code@nparashuram.com>",
   "license": "ISC",
   "dependencies": {
-    "@babel/core": "^8.1.0",
-    "@babel/node": "^8.0.6",
+    "@babel/core": "^8.1.2",
+    "@babel/node": "^8.1.2",
     "@babel/preset-env": "^8.0.7",
     "@babel/register": "^8.0.1",
-    "axios": "^1.21.0",
+    "axios": "^1.21.1",
     "debug": "^4.4.3",
     "fs-extra": "^11.4.1"
   },
