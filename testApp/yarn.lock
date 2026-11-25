@@ -1227,15 +1227,15 @@ async-each@^1.0.0:
 
 async@1.5.0:
   version "1.5.0"
-  resolved "https://registry.npmjs.org/async/-/async-1.5.0.tgz"
+  resolved "https://registry.yarnpkg.com/async/-/async-1.5.0.tgz#2796642723573859565633fc6274444bee2f8ce3"
   integrity sha512-m9nMwCtLtz29LszVaR0q/FqsJWkrxVoQL95p7JU0us7qUx4WEcySQgwvuneYSGVyvirl81gz7agflS3V1yW14g==
 
 async@^2.1.2:
-  version "2.2.0"
-  resolved "https://registry.npmjs.org/async/-/async-2.2.0.tgz"
-  integrity sha512-b8NLjm2v8zgh50O70c2X4mEpWwCL9Bm9vfywD1OJdkdZwGzdDOFs7AXiACNYNei/lnFuMoZ9I71/1yXLw4v2yw==
+  version "2.6.4"
+  resolved "https://registry.yarnpkg.com/async/-/async-2.6.4.tgz#706b7ff6084664cd7eae713f6f965433b5504221"
+  integrity sha512-mzo5dfJYwAn29PeiJ0zvwTo04zj8HDJj0Mn8TD7sno7q12prdbnasKJHhkm2c1LgrhlJ0teaea8860oxi51mGA==
   dependencies:
-    lodash "^4.14.0"
+    lodash "^4.17.14"
 
 available-typed-arrays@^1.0.7:
   version "1.0.7"
@@ -4475,7 +4475,7 @@ lodash.throttle@^4.1.1:
   resolved "https://registry.yarnpkg.com/lodash.throttle/-/lodash.throttle-4.1.1.tgz#c23e91b710242ac70c37f1e1cda9274cc39bf2f4"
   integrity sha512-wIkUCfVKpVsWo3JSZlc+8MB5it+2AN5W8J7YVMST30UrvcQNZ1Okbj+rbVniijTWE6FGYy4XJq/rHkas8qJMLQ==
 
-lodash@^4.14.0, lodash@^4.17.4, lodash@^4.2.0, lodash@^4.3.0, lodash@^4.6.1:
+lodash@^4.17.14, lodash@^4.17.4, lodash@^4.2.0, lodash@^4.3.0, lodash@^4.6.1:
   version "4.18.1"
   resolved "https://registry.npmjs.org/lodash/-/lodash-4.18.1.tgz"
   integrity sha512-dMInicTPVE8d1e5otfwmmjlxkZoUpiVLwyeTdUsi/Caj/gfzzblBcCE5sRHV/AsjuCmxWrte2TNGSYuCeCq+0Q==
